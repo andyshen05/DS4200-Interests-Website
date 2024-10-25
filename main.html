@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Interests Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="title"><b>Andy's Interests Website!</b></h1>
+    <h2 class="title">I've got many interests, and here are some of the most notable ones!</h3>
+    <h3 class="interest">Introduction:</h3>
+    <p>
+        Hey there! My name is Andy Shen, and I am a sophomore student at Northeastern studying Data Science and Mathematics!
+        For some general context, I am currently 19, and I was born in North Carolina. I later moved to Massachusetts, and have 
+        been in this general area ever since! I have many hobbies, which I have accumulated throughout my life, all of which are 
+        pretty different from each other. Such hobbies include swimming, violin, biking, video games, and acapella. And that’s not 
+        even including my love and dedicated passion for data science! Of course there are many, many other activities that I have 
+        enjoyed multiple times throughout my life, but these are the main core few that I have really enjoyed consistently for 
+        multiple years. Unfortunately, my access to most of these activities were halted during the pandemic, but now that it has 
+        mostly passed, I am beginning to reintegrate those activities into my life whenever possible. I hope you enjoy my 
+        website, and get to learn a bit about me! If you have any feedback or questions, or even just want to chat and talk with 
+        me, feel free to email me at shen.andy@northeastern.edu. I can’t wait to hear from you!
+    </p>
+    <h3 class="interest">Interest #1: Pokemon</h3>
+    <button id="pokemon_button" style="text-align: center;">What is Pokemon?</button>
+    <script>
+        const pokemon_button = document.getElementById("pokemon_button")
+        pokemon_button.addEventListener("click", function(){
+            window.location.href="pokemon.html";
+        })
+    </script>
+    <p>
+        My first exposure to the Pokemon franchise was in late 2016, with the release of Pokemon Go.
+        In fact, almost everyone was outside walking around trying to <i>catch 'em all</i>! Pokemon is all about fostering
+        relationships with your team, and using their strengths to your advantage! If you'd like to learn more about it you can
+        check out the seperate website I made using the button above.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png" alt="Pokemon Go Logo" style="width:200px;height:132px;">
+    <p>
+        Since I began my introduction to Pokemon, I've made it my personal goal to beat at least one game from each of the 
+        franchise's 9 generations! Currently I have beaten:
+    </p>
+    <ol>
+        <li style="color:green">Pokemon Emerald (Generation 3)</li>
+        <li style="color:green">Pokemon SoulSilver (Generation 2)</li>
+    </ol>
+    <p>Currently playing: Pokemon LeafGreen (Generation 1)</p>
+    <div style="text-align: center;">
+        <h2>Contact me!</h2>
+        <a href="mailto:shen.andy@northeastern.edu" class = "contact">Email: shen.andy@northeastern.edu</a>
+        <p class = "contact">Phone Number: +1(781)-708-2583</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+a:hover{
+    color: red;
+}
+
+.title{
+    font-family: Helvetica;
+    color:#0781ec
+}
+
+.interest{
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid rgb(120, 8, 206);
+    padding: 10px 5px 10px 5px;
+    color:#29ad5c
+}
+
+.contact{
+    text-align: center;
+    color:rgb(39, 147, 223)
+}
+
+button{
+    margin:auto;
+    display:block;
+}
